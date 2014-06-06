@@ -1,0 +1,17 @@
+<div ng-controller="AboutCtrl">
+	<h2>About</h2>
+	<div ng-repeat="about in myself">
+		<table class="table table-bordered table-striped">
+			<tbody>
+				<tr>
+					<td>Name</td>
+					<td>{{about.fname}} {{about.lname}}</td>
+				</tr>
+				<tr>
+					<td>DOB</td>
+					<td>{{about.dob}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>

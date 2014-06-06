@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en" ng-app="MyProfile">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mobile App - My Profile</title>
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery/jquery.mmenu.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container">
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+		<button class="btn-home" alt="Back to Home" ><a href="#/" class="glyphicon glyphicon-home"></a></button>
+		<div class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li><a href="#/">Home</a></li>
+				<li><a href="#about">About Myself</a></li>
+				<li><a href="#profile">Online Profile</a></li>
+				<li><a href="#technical">Technical Skills</a></li>
+				<li><a href="#academic">Academic Qualification</a></li>
+				<li><a href="#career">Experience</a></li>
+				<li><a href="#profile">Personal Details</a></li>
+			</ul>
+		</div>
+	</div>
+<div class="container">
+	<div ng-view></div>
+</div>
+</div>
+	<script src="js/lib/angular/angular.min.js"></script>
+	<script src="js/lib/angular/angular-route.min.js"></script>
+	<script src="js/lib/jquery/jquery.min.js"></script>
+	<script src="js/lib/bootstrap/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+</body>
+</html>

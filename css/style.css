@@ -1,0 +1,44 @@
+body{
+	padding-bottom: 10px;
+	padding-top: 10px;
+	background-color: #f4f4f4;
+}
+#sidemenu{
+	display: display;
+	}
+.header a
+{
+	background: center center no-repeat transparent;
+	background-image: url('../img/sidenav-icon.png');
+	display: block;
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 0;
+	left: 10px;
+}
+.header a.right
+{
+	left: auto;
+	right: 10px;
+}
+.container {
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+.btn-home{
+	margin: 8px;
+	padding: 5px 10px;
+	border: 0;
+	border-radius: 2px;
+	outline: none;
+}
+.btn-home a{
+	color:#333;
+	text-decoration:none;
+}
+a.list-group-item:hover{background: #e36; color:#fff;}
+.btn-home{display:none;}
+@media all and (max-width:780px){
+	.btn-home{display:block;}
+}

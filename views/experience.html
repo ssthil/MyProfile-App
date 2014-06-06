@@ -1,0 +1,17 @@
+<div ng-controller="ExpCtrl">
+	<h2>Experience</h2>
+	<div ng-repeat="exp in experience">
+		<table class="table table-bordered table-striped">
+			<tbody>
+				<tr>
+					<td>Name</td>
+					<td>{{exp.fname}} {{exp.lname}}</td>
+				</tr>
+				<tr>
+					<td>DOB</td>
+					<td>{{exp.dob}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
