@@ -10,6 +10,10 @@ var app = angular.module('MyProfile',['ngRoute']);
 				templateUrl:'views/about.html',
 				controller:'AboutCtrl'
 			}).
+			when('/profile',{
+				templateUrl:'views/profile.html',
+				controller:'ProfileCtrl'
+			}).
 			when('/experience', {
 				templateUrl:'views/experience.html',
 				controller:'ExpCtrl'

@@ -1,17 +1,11 @@
 <div ng-controller="AboutCtrl">
-	<h2>About</h2>
-	<div ng-repeat="about in myself">
-		<table class="table table-bordered table-striped">
-			<tbody>
-				<tr>
-					<td>Name</td>
-					<td>{{about.fname}} {{about.lname}}</td>
-				</tr>
-				<tr>
-					<td>DOB</td>
-					<td>{{about.dob}}</td>
-				</tr>
-			</tbody>
-		</table>
+	<h2>About Myself</h2>	
+	<div class="panel panel-default" ng-repeat="about in myself">
+		<div class="panel-heading">{{about.title}}</div>
+		<div class="panel-body">
+			<p>{{about.desc[0]}}</p>
+			<p>{{about.desc[1]}}</p>
+			<p>{{about.desc[2]}}</p>
+		</div>
 	</div>
 </div>

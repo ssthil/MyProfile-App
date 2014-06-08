@@ -1,0 +1,7 @@
+<div ng-controller="ProfileCtrl">
+<h2>Online Profile</h2>
+<div class="panel panel-default" ng-repeat="links in profilelinks">
+	<div class="panel-heading">{{links.title}}</div>
+	<div class="panel-body"><a href="{{links.link}}", target="_blank">{{links.link}}</a></div>
+</div>
+</div>
