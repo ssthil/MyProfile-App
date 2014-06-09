@@ -1,0 +1,16 @@
+<div ng-controller="PersonalCtrl">
+<h2>Personal details</h2>
+<div class="panel panel-default">
+	<div class="panel-heading"></div>
+	<div class="panel-body">
+		<table class="table table-striped table-bordered">
+			<tbody>
+				<tr ng-repeat="personal in personaldetails">
+					<td>{{personal.name}}</td>
+					<td>{{personal.details}}</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</div>
+</div>

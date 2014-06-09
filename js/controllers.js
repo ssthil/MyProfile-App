@@ -34,6 +34,31 @@ app.controller('ProfileCtrl', function($scope){
 	}
 	];
 });
+
+app.controller('TechCtrl', function($scope){
+	$scope.technicalskills = [
+	{
+		design:'UI UX',
+		development:'HTML/HTML5, CSS/CSS3'
+	}
+	];
+});
+app.controller('QualificationCtrl', function($scope){
+	$scope.qualificationlist = [
+	{
+		title:'Master Degree',
+		desc:'Pursuing MCA through IGNOU'
+	},
+	{
+		title:'Bachelor Degree',
+		desc:'B.Com Computer Application through Annamalai University (63%) - 1999'
+	},
+	{
+		title:'Higher Secondary',
+		desc:'Bio-Maths, AV Hr Sec School, Paramakudi, Tamilnadu - India (83%) - 2001'
+	}
+	];
+});
 app.controller('ExpCtrl', function($scope){
 	$scope.experience= [
 	{
@@ -46,11 +71,31 @@ app.controller('ExpCtrl', function($scope){
 	}
 	];
 });
-app.controller('TechCtrl', function($scope){
-	$scope.technicalskills = [
+app.controller('PersonalCtrl', function($scope){
+	$scope.personaldetails = [
 	{
-		design:'UI UX',
-		development:'HTML/HTML5, CSS/CSS3'
+		name:'Name',
+		details:'Senthil Sivaramakrishnan'
+	},
+	{
+		name:'Gender',
+		details:'Male'
+	},
+	{
+		name:'Date of birth',
+		details:'15-06-1983'
+	},
+	{
+		name:'Marital Status',
+		details:'Married'
+	},
+	{
+		name:'Nationality',
+		details:'Indian'
+	},
+	{
+		name:'Passport Number',
+		details:'F4639382'
 	}
 	];
 });

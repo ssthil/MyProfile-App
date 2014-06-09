@@ -14,6 +14,10 @@ var app = angular.module('MyProfile',['ngRoute']);
 				templateUrl:'views/profile.html',
 				controller:'ProfileCtrl'
 			}).
+			when('/qualification', {
+				templateUrl:'views/qualification.html',
+				controller:'QualificationCtrl'			
+			}).
 			when('/experience', {
 				templateUrl:'views/experience.html',
 				controller:'ExpCtrl'
@@ -21,6 +25,10 @@ var app = angular.module('MyProfile',['ngRoute']);
 			when('/technical', {
 				templateUrl:'views/technical.html',
 				controller:'TechCtrl'
+			}).
+			when('/personal', {
+				templateUrl:'views/personal.html',
+				controller:'PersonalCtrl'
 			}).
 			otherwise({
 				redirectTo:'/home',
