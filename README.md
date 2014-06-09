@@ -39,4 +39,4 @@ of several directories and initial files of interest:
 
 Directly added all the dependency files in the project. Here the list of the dependencies:
         
-        AngularJS, Bootstrap, jQuery
+    AngularJS, Bootstrap, jQuery
