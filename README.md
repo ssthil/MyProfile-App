@@ -34,3 +34,8 @@ of several directories and initial files of interest:
       | |- profile.html         
       | |- qualification.html   
       | |- technical.html       
+
+###Dev Dependencies
+
+Directly added all the dependency files in the project. Here the list of the dependencies
+`AngularJS, Bootstrap, jQuery`
