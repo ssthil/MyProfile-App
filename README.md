@@ -1,7 +1,7 @@
-MyProfile App
+My Profile App
 =============
 
-This is my profile app, developed in AngularJS with bootstrap. I gained very good knowledge when I create this application. Newly into AngulrJS and achieved much better.
+This is my profile app, developed in AngularJS with bootstrap. I have gained very good knowledge when I create this application. Newly into AngulrJS and achieved much better.
 
 ### Directory Structure
 The `myprfile-app/` directory is my main AngularJS project folder. It consists
